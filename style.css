@@ -29,3 +29,8 @@ main {
     min-height: 100px;
     padding: 48px 24px 24px 24px;
 }
+
+img {
+    height: 50%;
+    width: 50%;
+}
