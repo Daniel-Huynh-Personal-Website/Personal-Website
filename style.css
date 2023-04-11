@@ -6,15 +6,31 @@ body {
     float: right;
 }
 
+#about:hover {
+    border: 2px solid black;
+}
+
+#index:hover {
+    border: 2px solid black;
+}
+
+#portfolio:hover {
+    border: 2px solid black;
+}
+
+#contact:hover {
+    border: 2px solid black;
+}
+
 header {
     top: 0;
     left: 0;
     right: 0;
     position: fixed;
     background-color: white;
-    padding: 24px 36px 24px 36px;
+    padding: 10px 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 3vw;
 }
 
 .name {
@@ -22,11 +38,25 @@ header {
 }
 
 main {
-    min-height: 100px;
-    padding: 48px 24px 24px 24px;
+    min-height: 100vh;
+    padding: 56px 24px 24px;
 }
 
 img {
     height: 50%;
     width: 50%;
+}
+
+.formCon {
+    margin: 2em 0 0 0;
+    padding: 1em 0 0 0;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+#submit:hover {
+    text-shadow: 2px 2px 8px
 }

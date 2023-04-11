@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div>
+            <span class="name">Daniel Huynh</span>
+        </div>
+            <nav class="links">
+                <a id="index" href="index.html">Home</a>
+                <a id="about" href="about.html">About</a>
+                <a id="portfolio" href="portfolio.html">Portfolio</a>
+                <a id="contact" href="contact.html">Contact</a>
+            </nav>
+    </header>
+    <main>
+        <form id="form" action="submission.html">
+             <div class="formCon">
+                <div class="form-column">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name">
+                </div>
+                <div class="form-column">
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email">
+                </div>
+                <div class="form-row">
+                    <label>Message</label><br>
+                    <textarea id="message-box" type="text" name="message"></textarea>
+                </div> <br>
+                <input id="submit" type="submit" value="Submit"></button>
+            </div>
+            <script src="script.js"></script>
+        </form>
+    </main>
+</body>
+</html>
