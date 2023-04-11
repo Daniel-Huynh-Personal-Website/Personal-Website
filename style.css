@@ -43,8 +43,7 @@ main {
 }
 
 img {
-    height: 50%;
-    width: 50%;
+    height: 200px;
 }
 
 .formCon {
@@ -60,3 +59,20 @@ img {
 #submit:hover {
     text-shadow: 2px 2px 8px
 }
+
+section {
+    height: 17em;
+}
+
+section > img {
+    float: left;
+    margin: 0 24px 24px 0; 
+}
+
+@media screen and (max-width: 720px) {
+    section {
+        margin: 0 0 15em 0;
+    }
+}
+
+  
